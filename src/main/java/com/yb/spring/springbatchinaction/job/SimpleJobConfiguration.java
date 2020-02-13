@@ -1,6 +1,5 @@
 package com.yb.spring.springbatchinaction.job;
 
-import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.batch.core.Job;
@@ -12,6 +11,11 @@ import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+
+// 2. Spring Batch 가이드 - Batch Job 실행해보기
+// 스프링배치 프로젝트 생성
+//
 
 @Slf4j // log 사용을 위한 lombok 어노테이션
 @RequiredArgsConstructor // 생성자 DI를 위한 lombok 어노테이션
